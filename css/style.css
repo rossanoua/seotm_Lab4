@@ -1,0 +1,115 @@
+
+
+.image {
+    background-image: url('../img/0.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding-top: 66.64%; /* (img-height / img-width * width) */
+    /*margin: 30px auto;*/
+    background-position: center;
+    z-index: -100;
+    position: absolute;
+}
+
+.im1 {
+    background-image: url('../img/1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 50%;
+    padding-top: 66.64%; /* (img-height / img-width * width) */
+    /*margin: 30px auto;*/
+    background-position: center;
+    z-index: 100;
+    position: relative;
+    bottom:-670px;
+}
+
+.im2 {
+    background-image: url(../img/2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 22%;
+    height: 50%;
+    padding-top: 66.64%;
+    background-position: center;
+    z-index: 200;
+    position: relative;
+    bottom: 400px;
+    left: 1110px;
+}
+
+.im3 {
+    background-image: url(../img/3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18%;
+    height: 50%;
+    padding-top: 66.64%;
+    background-position: center;
+    z-index: 200;
+    position: relative;
+    bottom: 1360px;
+    left: 850px;
+}
+
+.im4 {
+    background-image: url(../img/4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 22%;
+    height: 50%;
+    padding-top: 66.64%;
+    background-position: center;
+    z-index: 200;
+    position: relative;
+    bottom: 400px;
+    left: 1110px;
+}
+
+.im5 {
+    background-image: url(../img/5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 22%;
+    height: 50%;
+    padding-top: 66.64%;
+    background-position: center;
+    z-index: 200;
+    position: relative;
+    bottom: 400px;
+    left: 1110px;
+}
+
+
+
+/*div > img{*/
+    /*visibility: hidden;*/
+/*}*/
+
+/*.image:before{*/
+    /*!*margin:5px;*!*/
+    /*border: 10px solid blue;*/
+    /*content: url("../img/0.png");*/
+    /*!*-webkit-background-size:auto;*!*/
+    /*!*background-size:auto;*!*/
+    /*!*background-repeat:no-repeat;*!*/
+    /*!*background-image: url("../img/0.png");*!*/
+    /*z-index: -100;*/
+/*}*/
+
+/*.image{*/
+    /*display: inline-block;*/
+/*}*/
+
+/*.im1{*/
+    /*!*margin:5px;*!*/
+    /*!*border: 1px solid blue;*!*/
+    /*-webkit-background-size:cover;*/
+    /*background-size:cover;*/
+    /*background-image: url("../img/1.png");*/
+    /*z-index: 100;*/
+/*}*/
+
